@@ -1,0 +1,177 @@
+.main {
+    margin: 0;
+    padding:18vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h2{
+    font-size: 30px;
+    padding: 15px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  .warpper h2{
+    text-decoration: underline;
+    padding-top: 10px;
+  }
+  
+  p{
+    padding: 10px;
+  }
+  .warpper{
+   text-align: center;
+    
+  
+  }
+  .warpper p{
+    text-align: center;
+    padding-left:15%;
+    padding-right: 15%;
+     
+  }
+  .myform{
+     padding: 25px;
+  
+  }
+  
+  /*Strat Contact */
+  @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,700&display=swap");
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+  /*  background-color: aqua; */
+  font-family: "Raleway", sans-serif;
+  }
+  
+  section {
+  padding: 5rem 10px;
+  background-color: #fff;
+  
+  background-position: center center;
+  }
+  
+  .form-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  background-position: center center;
+  border: 1px solid #007575;
+  box-shadow: 1px 1px 3px dimgrey, 3px 3px 7px grey;
+  }
+  
+  h2 {
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+  font-size: 2rem;
+  font-weight: 300;
+  }
+  
+  .form-item {
+  margin-bottom: 0.7rem;
+  }
+  
+  label,
+  input,
+  textarea {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  outline-color: #007575;
+  }
+  
+  label {
+  margin-bottom: 3px;
+  }
+  
+  input,
+  textarea {
+  padding: 3px;
+  border: 1px solid #007575;
+  background-color: rgba(250, 250, 250, 0.85);
+  }
+  
+  input[type=submit] {
+  background-color: #007575;
+  padding: 7px;
+  border: 0;
+  color: snow;
+  cursor: pointer;
+  text-transform: uppercase;
+  }
+  
+  input[type=submit]:hover {
+  animation-name: submit-hover;
+  animation-duration: 0.7s;
+  }
+  
+  input[type=submit]:active {
+  animation-name: submit-active;
+  animation-duration: 0.3s;
+  }
+  
+  @keyframes submit-hover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+  }
+  @keyframes submit-active {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.98);
+  }
+  }
+  /*End Contact*/
+  
+  /*About us CSS*/
+  
+  .president{
+    padding: 100px;
+  }
+  .vision{
+    padding: 100px;
+  }
+  .shadow-lg {
+    -webkit-box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  }
+  .btn-outline-success:hover {
+    color: #fff !important;
+    background-color: #7199e3 !important;
+    border-color: #729ae5 !important;
+  }
+  .certifybtn{
+   
+    user-select: none;
+    font-weight: 600;
+    background-image: none;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    padding: 11px;
+   
+    line-height: 2;
+  
+    display: inline-block;
+    margin-bottom: 0;
+  
+  }
+  .inline-btn-container {
+    display: inline-block;
+  }
+  /*End About us CSS*/
